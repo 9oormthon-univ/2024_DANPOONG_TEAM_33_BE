@@ -21,6 +21,8 @@ import com.example.onetry.user.dto.res.SignInResDto;
 import com.example.onetry.user.dto.res.UserInfoResDto;
 import com.example.onetry.user.entity.User;
 import com.example.onetry.user.repository.UserRepository;
+import com.example.onetry.userpreference.entity.UserPreference;
+import com.example.onetry.userpreference.repository.UserPreferenceRepository;
 import com.example.onetry.util.FileNameGenerator;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
@@ -48,6 +50,7 @@ public class UserService {
     private final EducationRepository educationRepository;
     private final MyPageRepository myPageRepository;
     private final RefreshTokenRepository refreshTokenRepository;
+    private final UserPreferenceRepository userPreferenceRepository;
 
     @Value("${fileSystemPath}")
     private String FOLDER_PATH;
@@ -151,6 +154,8 @@ public class UserService {
 
     public void deleteUserInfo(String email) {
         User user = userRepository.findByEmail(email).orElseThrow(()-> new RuntimeException());
+        UserPreference userPreference = userPreferenceRepository.findByUser(user).orElseThrow(() -> new CustomException(ExceptionCode.USER_PREFERENCE_NOT_EXIST));
+        userPreferenceRepository.delete(userPreference);
         userRepository.deleteById(user.getId());
     }
 

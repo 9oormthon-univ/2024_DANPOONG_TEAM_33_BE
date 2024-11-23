@@ -51,6 +51,7 @@ public class UserPreference {
     @OnDelete(action = OnDeleteAction.CASCADE)
     private User user;
 
+
     @Builder
     protected UserPreference(String region, String subRegion, String career, String industryCategory,
                              String subIndustry, String educationLevel, List<String> targetCompanies,User user) {
