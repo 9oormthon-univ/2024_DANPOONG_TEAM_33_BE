@@ -124,3 +124,5 @@ public class UserController {
                         signInResDto));
     }
 }
+
+ //"https://dcu-speakers.store:8888/uploads/company/images/default.jpg"

@@ -3,6 +3,8 @@ package com.example.onetry.userpreference.entity;
 import com.example.onetry.user.entity.User;
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,6 +48,7 @@ public class UserPreference {
 
     @OneToOne
     @JoinColumn(name="user_id")
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private User user;
 
     @Builder

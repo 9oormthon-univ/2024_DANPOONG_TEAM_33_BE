@@ -5,6 +5,7 @@ import com.example.onetry.company.entity.CompanyInfo;
 import com.example.onetry.company.service.CompanyInfoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -53,7 +54,12 @@ public class CompanyInfoController {
         return ResponseEntity.ok(companyExtraInfo);
     }
 
-
-
+    // Company 이름 전체 조회 api
+    @Operation(summary = "기업의 이름을 전부 조회합니다.", description = "기업의 이름을 전부 조회합니다.")
+    @GetMapping("/name")
+    public ResponseEntity<List<String>> getCompanyName(){
+        List<String> companyNames = companyInfoService.getCompanyNames();
+        return ResponseEntity.ok(companyNames);
+    }
 
 }

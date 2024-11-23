@@ -3,6 +3,8 @@ package com.example.onetry.resume.entity;
 import com.example.onetry.resume.dto.req.ExperienceUpdateDto;
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 @Entity
 @Getter
@@ -21,6 +23,7 @@ public class Experience {
 
     @ManyToOne
     @JoinColumn(name = "resume_id")
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private Resume resume;
 
     @Builder

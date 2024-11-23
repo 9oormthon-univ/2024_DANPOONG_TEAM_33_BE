@@ -21,7 +21,6 @@ public class CompanyInfoService {
     public List<CompanyInfo> getAllCompanyInfo() {
         List<CompanyInfo> companyInfoList = companyInfoRepository.findAll();
         return companyInfoList;
-
     }
 
     // 특정 CompanyInfo 조회
@@ -39,5 +38,8 @@ public class CompanyInfoService {
         return companyExtraInfo;
     }
 
-
+    public List<String> getCompanyNames() {
+        List<String> companyNames = companyInfoRepository.findAllCompanyNames();
+        return companyNames;
+    }
 }
