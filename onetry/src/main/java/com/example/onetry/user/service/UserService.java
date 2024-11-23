@@ -4,6 +4,8 @@ import com.example.onetry.component.file.FileComponent;
 import com.example.onetry.exception.CustomException;
 import com.example.onetry.exception.ExceptionCode;
 import com.example.onetry.jwt.JwtProvider;
+import com.example.onetry.jwt.redis.RefreshToken;
+import com.example.onetry.jwt.redis.RefreshTokenRepository;
 import com.example.onetry.mypage.entity.MyPage;
 import com.example.onetry.mypage.repository.MyPageRepository;
 import com.example.onetry.resume.entity.Education;
@@ -20,6 +22,7 @@ import com.example.onetry.user.dto.res.UserInfoResDto;
 import com.example.onetry.user.entity.User;
 import com.example.onetry.user.repository.UserRepository;
 import com.example.onetry.util.FileNameGenerator;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Value;
@@ -44,6 +47,7 @@ public class UserService {
     private final ExperienceRepository experienceRepository;
     private final EducationRepository educationRepository;
     private final MyPageRepository myPageRepository;
+    private final RefreshTokenRepository refreshTokenRepository;
 
     @Value("${fileSystemPath}")
     private String FOLDER_PATH;
@@ -131,6 +135,7 @@ public class UserService {
 
         String accessToken = jwtProvider.createAccessToken(user.getEmail(), user.getRole(), user.getName(),user.getId());
         String refreshToken = jwtProvider.createRefreshToken(user.getEmail(),user.getRole(),user.getName(),user.getId());
+        refreshTokenRepository.save(new RefreshToken(user.getId(), refreshToken));
         SignInResDto sign = SignInResDto.of(accessToken,refreshToken);
 
         return sign;
@@ -147,5 +152,34 @@ public class UserService {
     public void deleteUserInfo(String email) {
         User user = userRepository.findByEmail(email).orElseThrow(()-> new RuntimeException());
         userRepository.deleteById(user.getId());
+    }
+
+    public SignInResDto reissueAccessToken(HttpServletRequest request){
+
+        String token = jwtProvider.getTokenFromHeader(request);
+        log.info("refreshToken : {}",token);
+        Long userId = jwtProvider.getUserId(token);
+        log.info("userId : {}", userId);
+
+        RefreshToken refreshToken = refreshTokenRepository.findById(userId).orElseThrow(()->new CustomException(ExceptionCode.TOKEN_EXPIRED));
+        log.info("refreshTokenId : {}", refreshToken.getId());
+
+        if(!refreshToken.getRefreshToken().equals(token)) {
+            throw new CustomException(ExceptionCode.TOKEN_INVALID);
+        }
+
+        User user = userRepository.findById(userId).orElseThrow(()-> new CustomException(ExceptionCode.USER_NOT_EXIST));
+
+        String newAccessToken = jwtProvider.createAccessToken(user.getEmail(), user.getRole(), user.getName(),user.getId());
+        String newRefreshToken = jwtProvider.createRefreshToken(user.getEmail(), user.getRole(), user.getName(),user.getId());
+
+        SignInResDto signInResDto = SignInResDto.builder()
+                .accessToken(newAccessToken)
+                .refreshToken(newRefreshToken)
+                .build();
+
+        refreshTokenRepository.save(new RefreshToken(userId, newRefreshToken));
+
+        return signInResDto;
     }
 }

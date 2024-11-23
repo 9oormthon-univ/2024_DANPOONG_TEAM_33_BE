@@ -46,7 +46,7 @@ public enum ExceptionCode {
     UNAUTHORIZED_ACCESS_APPLICATION(HttpStatus.BAD_REQUEST,"해당 지원서에 조회할 권한이 없습니다."),
 
     // JWT Exception
-    ACCESS_TOKEN_EXPIRED(HttpStatus.UNAUTHORIZED,  "AccessToken 이 만료되었습니다."),
+    TOKEN_EXPIRED(HttpStatus.UNAUTHORIZED,  "Token 이 만료되었습니다."),
     TOKEN_INVALID(HttpStatus.UNAUTHORIZED, "토큰이 유효하지 않습니다."),
     TOKEN_NOT_FOUND(HttpStatus.BAD_REQUEST, "토큰이 비었거나 null입니다"),
     ;

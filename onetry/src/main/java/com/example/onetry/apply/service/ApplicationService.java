@@ -46,6 +46,9 @@ public class ApplicationService {
         }else{
             applications = applicationRepository.findByUserOrderByCreateDateDesc(user);
         }
+        if(applications.size() == 0){
+            throw new CustomException(ExceptionCode.APPLICATION_NOT_EXIST);
+        }
 
         log.info("첫번째 조회 결과 : {}", applications.get(0).getCreateDate());
         return applications.stream().map(ApplicationInfo::from).toList();

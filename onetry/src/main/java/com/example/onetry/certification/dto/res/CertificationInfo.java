@@ -11,16 +11,16 @@ public record CertificationInfo(
         String certificationName,
         String issuingOrganization,
         LocalDate acquisitionDate,
-        String certificationUrl
+        String generateFileName
 
 ){
-    public static CertificationInfo of(Certification certification, String certificationUrl){
+    public static CertificationInfo of(Certification certification, String generateFileName){
         return CertificationInfo.builder()
                 .certificationId(certification.getId())
                 .certificationName(certification.getCertificationName())
                 .issuingOrganization(certification.getIssuingOrganization())
                 .acquisitionDate(certification.getAcquisitionDate())
-                .certificationUrl(certificationUrl)
+                .generateFileName(generateFileName)
                 .build();
     }
 }
