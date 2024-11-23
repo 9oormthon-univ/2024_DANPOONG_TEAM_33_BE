@@ -3,7 +3,7 @@ name: CD with Docker
 on:
   push:
     branches:
-      - main  # main 브랜치에 푸시될 때 실행
+      - dev  # dev 브랜치에 푸시될 때 실행
 
 permissions:
   contents: read
