@@ -38,10 +38,9 @@ public class MyPageService {
         int myVolunteeringTime = myPage.getVolunteeringTime();
         int myCertificationCount = myPage.getCertificationCount();
         MyPageStatisticsDto avgCount = myPageRepository.findAverageExcludingUser(user.getId());
-        int avgPortfolioCount = Integer.parseInt(String.valueOf((int) Math.ceil(avgCount.getPortfolioCount())));
-        int avgVolunteeringTime = Integer.parseInt(String.valueOf((int) Math.ceil(avgCount.getVolunteeringTime())));
-        int avgCertificationCount = Integer.parseInt(String.valueOf((int) Math.ceil(avgCount.getCertificationCount())));
-        String portfolioCompare = "포트폴리오 관련 "+compare(myPortfolioCount, avgPortfolioCount);
+        int avgPortfolioCount = doubleToInt(avgCount.getPortfolioCount());
+        int avgVolunteeringTime = doubleToInt(avgCount.getVolunteeringTime());
+        int avgCertificationCount = doubleToInt(avgCount.getCertificationCount());        String portfolioCompare = "포트폴리오 관련 "+compare(myPortfolioCount, avgPortfolioCount);
         String volunteeringCompare= "봉사활동 관련 "+compare(myVolunteeringTime, avgVolunteeringTime);
         String certificationCompare= "자격증 관련 "+compare(myCertificationCount, avgCertificationCount);
 
@@ -50,6 +49,9 @@ public class MyPageService {
                 myCertificationCount,myVolunteeringTime,myPortfolioCount);
     }
 
+    public int doubleToInt(Double averCount){
+        return Integer.parseInt(String.valueOf((int) Math.ceil(averCount)));
+    }
     private String compare(int my, int avg){
         if(my > avg){
             return "충족";
