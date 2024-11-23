@@ -18,6 +18,8 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+import java.util.Collections;
+
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
@@ -69,9 +71,10 @@ public class SecurityConfig {
         // 모든 HTTP 메서드를 허용하도록 * 설정, 이는 get, post,put,delete 모든 메서드 다된다는 뜻
         configuration.addAllowedMethod("*");
         // http://localhost:3000 출처의 cors 요청을 허용한다는 뜻, 해당 URL에서만 오는 요청만 허용한다는 뜻
-        configuration.addAllowedOrigin("https://dcu-speakers.store:8888");
-        configuration.addAllowedOrigin("https://2024-danpoong-team-33-fe.vercel.app");
-        configuration.addAllowedOrigin("http://localhost:5173");
+        configuration.setAllowedOriginPatterns(Collections.singletonList("*"));
+//        configuration.addAllowedOrigin("https://dcu-speakers.store:8888");
+//        configuration.addAllowedOrigin("https://2024-danpoong-team-33-fe.vercel.app");
+//        configuration.addAllowedOrigin("http://localhost:5173");
         // Allow-Credentials 를 true로 설정하여 클라이언트가 자격 증명(쿠키, 인증 헤더)을 포함하여 요청할 수 있도록 함
         configuration.setAllowCredentials(true);
         // 클라이언트가 "응답" 에서 접근할 수 있는 헤더를 지정한다. ACCESS_TOKEN 헤더를 응답에 노출하도록 설정
