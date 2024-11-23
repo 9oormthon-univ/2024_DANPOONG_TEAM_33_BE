@@ -31,7 +31,7 @@ jobs:
 
     # 5. Gradle 빌드 (테스트 제외)
     - name: Run chmod to make gradlew executable
-      run: chmod +x ./onetry/gradlew
+      run: cd onetry && chmod +x ./gradlew
     
     - name: Run Gradle build
       uses: gradle/gradle-build-action@v2.6.0
