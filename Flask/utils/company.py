@@ -14,7 +14,8 @@ def make_company_title(company_list, del_keys = 1):
         title = ""
         title = title + company['companyName'] + " "
         title = title + company['position'] + " "
-        title = title + company['experienceLevel']
+        title = title + company['experienceLevel'] + " "
+        title = title + company['employmentType']
 
         company['title'] = title
 
@@ -22,5 +23,6 @@ def make_company_title(company_list, del_keys = 1):
             del company['companyName']
             del company['position']
             del company['experienceLevel']
+            del company['employmentType']
 
     return company_list
