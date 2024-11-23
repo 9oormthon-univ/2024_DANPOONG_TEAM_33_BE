@@ -3,7 +3,7 @@ name: CD with Docker
 on:
   push:
     branches:
-      - dev  # dev 브랜치에 푸시될 때 실행
+      - main  # main 브랜치에 푸시될 때 실행
 
 permissions:
   contents: read
@@ -29,25 +29,28 @@ jobs:
         mkdir -p onetry/src/main/resources
         echo "${{ secrets.APPLICATION_YML }}" | base64 --decode > onetry/src/main/resources/application.yml
 
-    # 4. Gradle 빌드 (테스트 제외)
+    # 5. Gradle 빌드 (테스트 제외)
+    - name: Run chmod to make gradlew executable
+      run: chmod +x ./onetry/gradlew
+    
     - name: Run Gradle build
       uses: gradle/gradle-build-action@v2.6.0
       with:
         arguments: build -x test
         build-root-directory: onetry
 
-    # 5. Docker 이미지 빌드
+    # 6. Docker 이미지 빌드
     - name: Build Docker image
       run: |
-        docker build -t "${{ secrets.DOCKER_HUB_USERNAME }}/onetry-spring-server:0.0.1" ./onetry
+          docker build -t "${{ secrets.DOCKER_HUB_USERNAME }}/onetry-spring-server:0.0.1" ./onetry
 
-    # 6. Docker Hub에 이미지 푸시
+    # 7. Docker Hub에 이미지 푸시
     - name: Push Docker image to Docker Hub
       run: |
         echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
-        docker push "${{ secrets.DOCKER_HUB_USERNAME }}/onetry-spring-server:0.0.1"
+        docker push "${{ secrets.DOCKER_HUB_USERNAME }}"/onetry-spring-server:0.0.1
     
-    # 7. SSH로 원격 서버에 접속하여 Docker 이미지 Pull 및 컨테이너 재시작
+    # 8. SSH로 원격 서버에 접속하여 Docker 이미지 Pull 및 컨테이너 재시작
     - name: Deploy via SSH (Docker Pull and Restart)
       uses: appleboy/ssh-action@master
       with:
@@ -64,8 +67,8 @@ jobs:
           sudo docker ps -q --filter "ancestor=${{ secrets.DOCKER_HUB_USERNAME }}/onetry-spring-server:0.0.1" | xargs -r sudo docker stop
           sudo docker ps -a -q --filter "ancestor=${{ secrets.DOCKER_HUB_USERNAME }}/onetry-spring-server:0.0.1" | xargs -r sudo docker rm
           
-          # 수정 전 버전의 image를 삭제
-          sudo docker rmi "${{ secrets.DOCKER_HUB_USERNAME }}/onetry-spring-server:0.0.1"
+          # 수정전 버전의 image를 삭제
+          sudo docker rmi kanghyungjun/onetry-spring-server:0.0.1
           
           # 최신 이미지 pull
           sudo docker pull "${{ secrets.DOCKER_HUB_USERNAME }}/onetry-spring-server:0.0.1"
