@@ -1,2060 +1,590 @@
 [
     {
         "position": "데이터 엔지니어",
-        "company_name": "데이터브릿지",
-        "location": {
-            "region": "충청북도",
-            "city": "증평군",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "데이터브릿지"
     },
     {
         "position": "백엔드 개발자",
-        "company_name": "넥스트딥",
-        "location": {
-            "region": "경기도",
-            "city": "남양주시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "넥스트딥"
     },
     {
         "position": "간호사",
-        "company_name": "케어메디",
-        "location": {
-            "region": "제주특별자치도",
-            "city": "제주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "케어메디"
     },
     {
         "position": "임상병리사",
-        "company_name": "메디스캔",
-        "location": {
-            "region": "광주광역시",
-            "city": "북구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "메디스캔"
     },
     {
         "position": "방사선사",
-        "company_name": "헬스레이",
-        "location": {
-            "region": "충청남도",
-            "city": "아산시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "헬스레이"
     },
     {
         "position": "건축 설계사",
-        "company_name": "아키프로",
-        "location": {
-            "region": "울산광역시",
-            "city": "중구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "아키프로"
     },
     {
         "position": "건설 기술자",
-        "company_name": "콘크리티아",
-        "location": {
-            "region": "전라북도",
-            "city": "순창군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "콘크리티아"
     },
     {
         "position": "초등학교 교사",
-        "company_name": "아이브릿지",
-        "location": {
-            "region": "충청남도",
-            "city": "논산시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "아이브릿지"
     },
     {
         "position": "유아교육 교사",
-        "company_name": "키즈랜드",
-        "location": {
-            "region": "경기도",
-            "city": "평택시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "키즈랜드"
     },
     {
         "position": "교육 컨설턴트",
-        "company_name": "에듀인사이트",
-        "location": {
-            "region": "대전광역시",
-            "city": "유성구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에듀인사이트"
     },
     {
         "position": "금융 분석가",
-        "company_name": "파이낸스비전",
-        "location": {
-            "region": "충청북도",
-            "city": "제천시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "파이낸스비전"
     },
     {
         "position": "자산관리사",
-        "company_name": "월스파크 자산운용",
-        "location": {
-            "region": "인천광역시",
-            "city": "서구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "월스파크 자산운용"
     },
     {
         "position": "변호사",
-        "company_name": "로펌 스퀘어",
-        "location": {
-            "region": "강원도",
-            "city": "정선군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "로펌 스퀘어"
     },
     {
         "position": "법무사",
-        "company_name": "리갈파트너스",
-        "location": {
-            "region": "경기도",
-            "city": "연천군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "리갈파트너스"
     },
     {
         "position": "노무사",
-        "company_name": "인사컨설트",
-        "location": {
-            "region": "경기도",
-            "city": "용인시",
-            "district": "기흥구"
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "인사컨설트"
     },
     {
         "position": "디지털 마케팅 전문가",
-        "company_name": "마케팅웍스",
-        "location": {
-            "region": "대구광역시",
-            "city": "북구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "마케팅웍스"
     },
     {
         "position": "브랜드 매니저",
-        "company_name": "브랜드라인",
-        "location": {
-            "region": "경기도",
-            "city": "오산시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "브랜드라인"
     },
     {
         "position": "UX/UI 디자이너",
-        "company_name": "크리에이티브모션",
-        "location": {
-            "region": "충청남도",
-            "city": "부여군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "크리에이티브모션"
     },
     {
         "position": "그래픽 디자이너",
-        "company_name": "디자인브릿지",
-        "location": {
-            "region": "울산광역시",
-            "city": "울주군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "디자인브릿지"
     },
     {
         "position": "패키지 디자이너",
-        "company_name": "패키지랩",
-        "location": {
-            "region": "대전광역시",
-            "city": "유성구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "패키지랩"
     },
     {
         "position": "헤드 셰프 (주방장)",
-        "company_name": "푸드하모니",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "푸드하모니"
     },
     {
         "position": "파티시에 (제과 제빵사)",
-        "company_name": "스위트아틀리에",
-        "location": {
-            "region": "전라북도",
-            "city": "임실군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "스위트아틀리에"
     },
     {
         "position": "물류 관리자",
-        "company_name": "로지텍 코리아",
-        "location": {
-            "region": "광주광역시",
-            "city": "북구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "로지텍 코리아"
     },
     {
         "position": "화물 운전기사",
-        "company_name": "퀵무브",
-        "location": {
-            "region": "부산광역시",
-            "city": "영도구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "퀵무브"
     },
     {
         "position": "창고 관리자",
-        "company_name": "웨어하우스 매니지먼트",
-        "location": {
-            "region": "경기도",
-            "city": "하남시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "웨어하우스 매니지먼트"
     },
     {
         "position": "물류 관리자",
-        "company_name": "웨이브로지스틱",
-        "location": {
-            "region": "충청남도",
-            "city": "청양군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "웨이브로지스틱"
     },
     {
         "position": "프론트엔드 개발자",
-        "company_name": "코드루프",
-        "location": {
-            "region": "전라북도",
-            "city": "순창군",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "코드루프"
     },
     {
         "position": "데이터 분석가",
-        "company_name": "인사이트 데이터랩",
-        "location": {
-            "region": "광주광역시",
-            "city": "서구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "인사이트 데이터랩"
     },
     {
         "position": "AI 연구원",
-        "company_name": "딥러닝 코퍼레이션",
-        "location": {
-            "region": "울산광역시",
-            "city": "중구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "딥러닝 코퍼레이션"
     },
     {
         "position": "보안 전문가",
-        "company_name": "시큐리티플러스",
-        "location": {
-            "region": "광주광역시",
-            "city": "서구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "시큐리티플러스"
     },
     {
         "position": "데브옵스 엔지니어",
-        "company_name": "오픈서버스",
-        "location": {
-            "region": "충청북도",
-            "city": "보은군",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "오픈서버스"
     },
     {
         "position": "웹 디자이너",
-        "company_name": "디자인앤모어",
-        "location": {
-            "region": "대구광역시",
-            "city": "수성구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "디자인앤모어"
     },
     {
         "position": "회계사",
-        "company_name": "어드바이즈 회계법인",
-        "location": {
-            "region": "인천광역시",
-            "city": "중구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "어드바이즈 회계법인"
     },
     {
         "position": "세무사",
-        "company_name": "탑택스",
-        "location": {
-            "region": "광주광역시",
-            "city": "북구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "탑택스"
     },
     {
         "position": "컨설턴트",
-        "company_name": "비즈엑스",
-        "location": {
-            "region": "충청남도",
-            "city": "공주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "비즈엑스"
     },
     {
         "position": "HR 매니저",
-        "company_name": "에이치알 솔루션",
-        "location": {
-            "region": "경상남도",
-            "city": "사천시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에이치알 솔루션"
     },
     {
         "position": "경영 컨설턴트",
-        "company_name": "에이비씨컨설팅",
-        "location": {
-            "region": "부산광역시",
-            "city": "해운대구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에이비씨컨설팅"
     },
     {
         "position": "국제무역 전문가",
-        "company_name": "트레이드웍스",
-        "location": {
-            "region": "강원도",
-            "city": "정선군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "트레이드웍스"
     },
     {
         "position": "해외영업 매니저",
-        "company_name": "수출이노베이션",
-        "location": {
-            "region": "강원도",
-            "city": "속초시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "수출이노베이션"
     },
     {
         "position": "헬스 트레이너",
-        "company_name": "헬스클럽365",
-        "location": {
-            "region": "광주광역시",
-            "city": "광산구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "헬스클럽365"
     },
     {
         "position": "피트니스 코치",
-        "company_name": "스포츠피트",
-        "location": {
-            "region": "부산광역시",
-            "city": "중구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "스포츠피트"
     },
     {
         "position": "전기기사",
-        "company_name": "에너지텍",
-        "location": {
-            "region": "경상북도",
-            "city": "성주군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에너지텍"
     },
     {
         "position": "기계 엔지니어",
-        "company_name": "메카솔루션",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "메카솔루션"
     },
     {
         "position": "용접 전문가",
-        "company_name": "웰드텍",
-        "location": {
-            "region": "전라북도",
-            "city": "부안군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "웰드텍"
     },
     {
         "position": "공조냉동 기술자",
-        "company_name": "쿨테크",
-        "location": {
-            "region": "대구광역시",
-            "city": "달성군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "쿨테크"
     },
     {
         "position": "소방 설비사",
-        "company_name": "소방텍코리아",
-        "location": {
-            "region": "서울특별시",
-            "city": "강서구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "소방텍코리아"
     },
     {
         "position": "물리치료사",
-        "company_name": "케어플러스",
-        "location": {
-            "region": "경상북도",
-            "city": "안동시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "케어플러스"
     },
     {
         "position": "언어치료사",
-        "company_name": "마음심리센터",
-        "location": {
-            "region": "경상남도",
-            "city": "통영시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "마음심리센터"
     },
     {
         "position": "작업치료사",
-        "company_name": "포커스 케어",
-        "location": {
-            "region": "충청남도",
-            "city": "금산군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "포커스 케어"
     },
     {
         "position": "초등 보육교사",
-        "company_name": "키즈하우스",
-        "location": {
-            "region": "인천광역시",
-            "city": "남동구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "키즈하우스"
     },
     {
         "position": "영양사",
-        "company_name": "헬씨푸드",
-        "location": {
-            "region": "충청남도",
-            "city": "서산시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "헬씨푸드"
     },
     {
         "position": "약사",
-        "company_name": "건강플러스 약국",
-        "location": {
-            "region": "경기도",
-            "city": "평택시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "건강플러스 약국"
     },
     {
         "position": "심리상담사",
-        "company_name": "마음치유센터",
-        "location": {
-            "region": "제주특별자치도",
-            "city": "서귀포시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "마음치유센터"
     },
     {
         "position": "웹 개발자",
-        "company_name": "이너서클 웹디자인",
-        "location": {
-            "region": "경기도",
-            "city": "양주시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "이너서클 웹디자인"
     },
     {
         "position": "모바일 앱 개발자",
-        "company_name": "앱버스터",
-        "location": {
-            "region": "경상남도",
-            "city": "함안군",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "앱버스터"
     },
     {
         "position": "블록체인 개발자",
-        "company_name": "블록체인 네트워크",
-        "location": {
-            "region": "제주특별자치도",
-            "city": "제주시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "블록체인 네트워크"
     },
     {
         "position": "VR/AR 콘텐츠 개발자",
-        "company_name": "가상현실 스튜디오",
-        "location": {
-            "region": "대구광역시",
-            "city": "서구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "가상현실 스튜디오"
     },
     {
         "position": "데이터 사이언티스트",
-        "company_name": "데이터솔루션즈",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "데이터솔루션즈"
     },
     {
         "position": "프로젝트 매니저",
-        "company_name": "알파매니지먼트",
-        "location": {
-            "region": "전라북도",
-            "city": "남원시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "알파매니지먼트"
     },
     {
         "position": "네트워크 엔지니어",
-        "company_name": "네트워크솔루션",
-        "location": {
-            "region": "경기도",
-            "city": "파주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "네트워크솔루션"
     },
     {
         "position": "백엔드 엔지니어",
-        "company_name": "코어백엔드",
-        "location": {
-            "region": "전라북도",
-            "city": "부안군",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "코어백엔드"
     },
     {
         "position": "클라우드 엔지니어",
-        "company_name": "클라우드테크",
-        "location": {
-            "region": "경상남도",
-            "city": "밀양시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "클라우드테크"
     },
     {
         "position": "데이터베이스 관리자",
-        "company_name": "DB매니지먼트",
-        "location": {
-            "region": "전라남도",
-            "city": "진도군",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "DB매니지먼트"
     },
     {
         "position": "머신러닝 엔지니어",
-        "company_name": "AI컴퍼니",
-        "location": {
-            "region": "서울특별시",
-            "city": "종로구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "AI컴퍼니"
     },
     {
         "position": "보건교사",
-        "company_name": "에듀케어",
-        "location": {
-            "region": "전라북도",
-            "city": "임실군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에듀케어"
     },
     {
         "position": "영어교사",
-        "company_name": "잉글리시스쿨",
-        "location": {
-            "region": "충청북도",
-            "city": "보은군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "잉글리시스쿨"
     },
     {
         "position": "웹 프로그래머",
-        "company_name": "웹코딩",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "웹코딩"
     },
     {
         "position": "콘텐츠 기획자",
-        "company_name": "콘텐츠팩토리",
-        "location": {
-            "region": "인천광역시",
-            "city": "계양구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "콘텐츠팩토리"
     },
     {
         "position": "모션 그래픽 디자이너",
-        "company_name": "모션아트",
-        "location": {
-            "region": "경기도",
-            "city": "의정부시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "모션아트"
     },
     {
         "position": "환경 엔지니어",
-        "company_name": "에코솔루션",
-        "location": {
-            "region": "제주특별자치도",
-            "city": "제주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에코솔루션"
     },
     {
         "position": "품질관리 엔지니어",
-        "company_name": "퀄리티컨트롤",
-        "location": {
-            "region": "충청북도",
-            "city": "단양군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "퀄리티컨트롤"
     },
     {
         "position": "약사",
-        "company_name": "헬스케어 약국",
-        "location": {
-            "region": "서울특별시",
-            "city": "도봉구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "헬스케어 약국"
     },
     {
         "position": "한의사",
-        "company_name": "동방한의원",
-        "location": {
-            "region": "경기도",
-            "city": "오산시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "동방한의원"
     },
     {
         "position": "피부관리사",
-        "company_name": "뷰티케어",
-        "location": {
-            "region": "경상북도",
-            "city": "영천시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "뷰티케어"
     },
     {
         "position": "항공 정비사",
-        "company_name": "에어텍 정비소",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에어텍 정비소"
     },
     {
         "position": "해양 구조사",
-        "company_name": "오션세이프",
-        "location": {
-            "region": "강원도",
-            "city": "인제군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "오션세이프"
     },
     {
         "position": "건축 설계자",
-        "company_name": "건축디자인랩",
-        "location": {
-            "region": "인천광역시",
-            "city": "중구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "건축디자인랩"
     },
     {
         "position": "조경사",
-        "company_name": "그린랜드",
-        "location": {
-            "region": "인천광역시",
-            "city": "중구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "그린랜드"
     },
     {
         "position": "전기 기술자",
-        "company_name": "파워라인",
-        "location": {
-            "region": "강원도",
-            "city": "춘천시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "파워라인"
     },
     {
         "position": "화학공학 엔지니어",
-        "company_name": "케미칼솔루션",
-        "location": {
-            "region": "대구광역시",
-            "city": "수성구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "케미칼솔루션"
     },
     {
         "position": "유기농 식품 연구원",
-        "company_name": "그린팜 리서치",
-        "location": {
-            "region": "충청남도",
-            "city": "계룡시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "그린팜 리서치"
     },
     {
         "position": "게임 기획자",
-        "company_name": "게이밍랩",
-        "location": {
-            "region": "대전광역시",
-            "city": "서구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "게이밍랩"
     },
     {
         "position": "애니메이션 디자이너",
-        "company_name": "애니모션 스튜디오",
-        "location": {
-            "region": "경기도",
-            "city": "동두천시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "애니모션 스튜디오"
     },
     {
         "position": "통번역사",
-        "company_name": "글로벌링크",
-        "location": {
-            "region": "인천광역시",
-            "city": "동구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "글로벌링크"
     },
     {
         "position": "지속 가능성 컨설턴트",
-        "company_name": "에코컨설트",
-        "location": {
-            "region": "경상남도",
-            "city": "진주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에코컨설트"
     },
     {
         "position": "물리치료사",
-        "company_name": "바디케어",
-        "location": {
-            "region": "제주특별자치도",
-            "city": "제주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "바디케어"
     },
     {
         "position": "프론트엔드 개발자",
-        "company_name": "웹크리에이티브",
-        "location": {
-            "region": "강원도",
-            "city": "춘천시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "웹크리에이티브"
     },
     {
         "position": "모바일 게임 개발자",
-        "company_name": "게임하우스",
-        "location": {
-            "region": "전라북도",
-            "city": "김제시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "게임하우스"
     },
     {
         "position": "인공지능 연구원",
-        "company_name": "AI테크놀로지",
-        "location": {
-            "region": "경기도",
-            "city": "동두천시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "AI테크놀로지"
     },
     {
         "position": "소프트웨어 QA 엔지니어",
-        "company_name": "퀄리티체크",
-        "location": {
-            "region": "경기도",
-            "city": "군포시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "퀄리티체크"
     },
     {
         "position": "데이터 분석가",
-        "company_name": "데이터엑셀",
-        "location": {
-            "region": "광주광역시",
-            "city": "서구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "데이터엑셀"
     },
     {
         "position": "정보보안 전문가",
-        "company_name": "시큐어티브",
-        "location": {
-            "region": "전라남도",
-            "city": "광양시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "시큐어티브"
     },
     {
         "position": "사이버 수사관",
-        "company_name": "사이버리서치",
-        "location": {
-            "region": "전라남도",
-            "city": "신안군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "사이버리서치"
     },
     {
         "position": "의료영상 분석 전문가",
-        "company_name": "메디이미징",
-        "location": {
-            "region": "서울특별시",
-            "city": "강북구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "메디이미징"
     },
     {
         "position": "지능형 로봇 개발자",
-        "company_name": "로보티카",
-        "location": {
-            "region": "울산광역시",
-            "city": "북구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "로보티카"
     },
     {
         "position": "패션 디자이너",
-        "company_name": "패션하우스",
-        "location": {
-            "region": "제주특별자치도",
-            "city": "제주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "패션하우스"
     },
     {
         "position": "금융 리스크 매니저",
-        "company_name": "리스크컨트롤",
-        "location": {
-            "region": "경상북도",
-            "city": "포항시",
-            "district": "북구"
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "리스크컨트롤"
     },
     {
         "position": "게임 아티스트",
-        "company_name": "이메이징게임스",
-        "location": {
-            "region": "서울특별시",
-            "city": "중랑구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "이메이징게임스"
     },
     {
         "position": "반도체 설계 엔지니어",
-        "company_name": "세미콘텍",
-        "location": {
-            "region": "경상북도",
-            "city": "안동시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "세미콘텍"
     },
     {
         "position": "전자제품 개발자",
-        "company_name": "일렉트로닉스랩",
-        "location": {
-            "region": "광주광역시",
-            "city": "광산구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "일렉트로닉스랩"
     },
     {
         "position": "바이오 연구원",
-        "company_name": "바이오랩",
-        "location": {
-            "region": "충청북도",
-            "city": "진천군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "바이오랩"
     },
     {
         "position": "법률 컨설턴트",
-        "company_name": "로앤컨설트",
-        "location": {
-            "region": "경상북도",
-            "city": "상주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "로앤컨설트"
     },
     {
         "position": "식품 위생사",
-        "company_name": "푸드세이프",
-        "location": {
-            "region": "충청북도",
-            "city": "옥천군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "푸드세이프"
     },
     {
         "position": "화장품 개발자",
-        "company_name": "뷰티랩",
-        "location": {
-            "region": "경상남도",
-            "city": "진주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "뷰티랩"
     },
     {
         "position": "자동차 정비사",
-        "company_name": "오토케어",
-        "location": {
-            "region": "경상남도",
-            "city": "의령군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "오토케어"
     },
     {
         "position": "기계 엔지니어",
-        "company_name": "메카솔루션",
-        "location": {
-            "region": "충청북도",
-            "city": "영동군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "메카솔루션"
     },
     {
         "position": "토목 설계자",
-        "company_name": "토목솔루션",
-        "location": {
-            "region": "제주특별자치도",
-            "city": "제주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "토목솔루션"
     },
     {
         "position": "소방 시설 관리자",
-        "company_name": "파이어프로",
-        "location": {
-            "region": "경기도",
-            "city": "포천시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "파이어프로"
     },
     {
         "position": "산업 안전 컨설턴트",
-        "company_name": "안전컨설팅랩",
-        "location": {
-            "region": "서울특별시",
-            "city": "관악구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "안전컨설팅랩"
     },
     {
         "position": "포토그래퍼",
-        "company_name": "포토아이디어",
-        "location": {
-            "region": "인천광역시",
-            "city": "연수구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "포토아이디어"
     },
     {
         "position": "헤어 스타일리스트",
-        "company_name": "헤어클래스",
-        "location": {
-            "region": "충청남도",
-            "city": "보령시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "헤어클래스"
     },
     {
         "position": "레스토랑 매니저",
-        "company_name": "다이닝콘셉트",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "다이닝콘셉트"
     },
     {
         "position": "요가 강사",
-        "company_name": "요가피트니스",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "요가피트니스"
     },
     {
         "position": "작곡가",
-        "company_name": "뮤직랩",
-        "location": {
-            "region": "부산광역시",
-            "city": "북구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "뮤직랩"
     },
     {
         "position": "필라테스 강사",
-        "company_name": "바디밸런스",
-        "location": {
-            "region": "전라북도",
-            "city": "임실군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "바디밸런스"
     },
     {
         "position": "공연 기획자",
-        "company_name": "공연이엔터",
-        "location": {
-            "region": "전라북도",
-            "city": "김제시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "공연이엔터"
     },
     {
         "position": "드론 조종사",
-        "company_name": "스카이플라이트",
-        "location": {
-            "region": "경기도",
-            "city": "성남시",
-            "district": "분당구"
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "스카이플라이트"
     },
     {
         "position": "영상 편집자",
-        "company_name": "비디오크리에이티브",
-        "location": {
-            "region": "경상남도",
-            "city": "하동군",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "비디오크리에이티브"
     },
     {
         "position": "화재 안전 관리사",
-        "company_name": "파이어프로텍트",
-        "location": {
-            "region": "부산광역시",
-            "city": "중구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "파이어프로텍트"
     },
     {
         "position": "HR 전문가",
-        "company_name": "피플매니지먼트",
-        "location": {
-            "region": "전라북도",
-            "city": "고창군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "피플매니지먼트"
     },
     {
         "position": "임상 시험 코디네이터",
-        "company_name": "메디케어코디",
-        "location": {
-            "region": "제주특별자치도",
-            "city": "제주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "메디케어코디"
     },
     {
         "position": "도시 계획 전문가",
-        "company_name": "어반디자인랩",
-        "location": {
-            "region": "강원도",
-            "city": "평창군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "어반디자인랩"
     },
     {
         "position": "콘텐츠 기획자",
-        "company_name": "콘텐츠크리에이터스",
-        "location": {
-            "region": "전라남도",
-            "city": "무안군",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "콘텐츠크리에이터스"
     },
     {
         "position": "지적 측량사",
-        "company_name": "지오스캔",
-        "location": {
-            "region": "대구광역시",
-            "city": "달서구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "지오스캔"
     },
     {
         "position": "항공 엔지니어",
-        "company_name": "에어텍",
-        "location": {
-            "region": "경기도",
-            "city": "용인시",
-            "district": "수지구"
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "에어텍"
     },
     {
         "position": "영상 프로듀서",
-        "company_name": "미디어파크",
-        "location": {
-            "region": "충청남도",
-            "city": "보령시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "미디어파크"
     },
     {
         "position": "건축 인테리어 디자이너",
-        "company_name": "인테리어아트",
-        "location": {
-            "region": "부산광역시",
-            "city": "기장군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "인테리어아트"
     },
     {
         "position": "해양 엔지니어",
-        "company_name": "오션테크",
-        "location": {
-            "region": "인천광역시",
-            "city": "남동구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "오션테크"
     },
     {
         "position": "광고 카피라이터",
-        "company_name": "애드포인트",
-        "location": {
-            "region": "부산광역시",
-            "city": "중구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "애드포인트"
     },
     {
         "position": "상담 심리사",
-        "company_name": "마음케어",
-        "location": {
-            "region": "전라북도",
-            "city": "장수군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "마음케어"
     },
     {
         "position": "임베디드 소프트웨어 개발자",
-        "company_name": "임베디드솔루션",
-        "location": {
-            "region": "서울특별시",
-            "city": "구로구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "임베디드솔루션"
     },
     {
         "position": "수학 강사",
-        "company_name": "엑설런트튜터",
-        "location": {
-            "region": "대전광역시",
-            "city": "대덕구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "엑설런트튜터"
     },
     {
         "position": "웹 디자이너",
-        "company_name": "디지털디자인랩",
-        "location": {
-            "region": "전라북도",
-            "city": "정읍시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "디지털디자인랩"
     },
     {
         "position": "스포츠 트레이너",
-        "company_name": "바디체인저",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "바디체인저"
     },
     {
         "position": "통번역사",
-        "company_name": "로컬라이즈",
-        "location": {
-            "region": "전라남도",
-            "city": "나주시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "로컬라이즈"
     },
     {
         "position": "네트워크 엔지니어",
-        "company_name": "인터넷솔루션",
-        "location": {
-            "region": "충청남도",
-            "city": "아산시",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "인터넷솔루션"
     },
     {
         "position": "금융 상품 기획자",
-        "company_name": "파이낸스매니아",
-        "location": {
-            "region": "전라남도",
-            "city": "영암군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "파이낸스매니아"
     },
     {
         "position": "자동차 검사원",
-        "company_name": "오토인스펙션",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "오토인스펙션"
     },
     {
         "position": "출판 기획자",
-        "company_name": "북엔미디어",
-        "location": {
-            "region": "대전광역시",
-            "city": "대덕구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "북엔미디어"
     },
     {
         "position": "디지털 마케터",
-        "company_name": "디지털플래너스",
-        "location": {
-            "region": "세종특별자치시",
-            "city": [],
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "디지털플래너스"
     },
     {
         "position": "데이터 과학자",
-        "company_name": "데이터사이언스랩",
-        "location": {
-            "region": "대구광역시",
-            "city": "수성구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "데이터사이언스랩"
     },
     {
         "position": "사회복지사",
-        "company_name": "웰페어센터",
-        "location": {
-            "region": "강원도",
-            "city": "철원군",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "웰페어센터"
     },
     {
         "position": "기계 설비 관리자",
-        "company_name": "메카엔지니어링",
-        "location": {
-            "region": "부산광역시",
-            "city": "연제구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "메카엔지니어링"
     },
     {
         "position": "회계 전문가",
-        "company_name": "어카운트솔루션",
-        "location": {
-            "region": "대전광역시",
-            "city": "동구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "어카운트솔루션"
     },
     {
         "position": "영상 기획자",
-        "company_name": "비주얼프로덕션",
-        "location": {
-            "region": "광주광역시",
-            "city": "동구",
-            "district": []
-        },
-        "portfolio_required": 1,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "비주얼프로덕션"
     },
     {
         "position": "패션 스타일리스트",
-        "company_name": "패션크리에이티브",
-        "location": {
-            "region": "서울특별시",
-            "city": "서초구",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "패션크리에이티브"
     },
     {
         "position": "상품 MD",
-        "company_name": "마켓라인",
-        "location": {
-            "region": "전라북도",
-            "city": "정읍시",
-            "district": []
-        },
-        "portfolio_required": 0,
-        "certifications": {
-            "essential": [],
-            "additional": []
-        }
+        "company_name": "마켓라인"
     }
 ]

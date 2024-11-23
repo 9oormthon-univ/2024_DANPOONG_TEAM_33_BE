@@ -13,6 +13,8 @@ COLLECTION_CMI = os.environ.get('COLLECTION_CMI')
 COLLECTION_CITY = os.environ.get('COLLECTION_CITY')
 COLLECTION_PS = os.environ.get('COLLECTION_JOB')
 COLLECTION_CERT = os.environ.get('COLLECTION_CERT')
+COLLECTION_EXTRA_CMI = os.environ.get('COLLECTION_EXTRA_CMI')
+IMAGE_URL = os.environ.get('IMAGE_URL')
 
 # 새로운 클라이언트를 생성하고 서버에 연결
 client = MongoClient(MONGODB_URI, server_api=ServerApi('1'))
@@ -69,7 +71,6 @@ def generate_job_data(company, Info_no):
 
     # 경험 수준 설정
     experience_level = random.choice(["경력", "신입", "신입 - 경력"])
-    company["experience_level"] = experience_level
 
     # 경험 연수 설정
     if experience_level == "신입":
@@ -78,6 +79,19 @@ def generate_job_data(company, Info_no):
         required_experience_years = random.randint(0, 3)
     else:
         required_experience_years = random.randint(3, 7)
+
+    # 회사 이미지 관련 설정
+    image_list = [
+        "28.jpg", "27.jpg", "26.jpg", "25.jpg", "24.jpg", "23.jpg",
+        "22.jpg", "21.jpg", "20.jpg", "19.jpg", "18.jpg", "17.jpg",
+        "16.jpg", "15.jpg", "14.jpg", "13.jpg", "12.jpg", "11.webp",
+        "10.webp", "9.jpg", "8.jpg", "7.jpg", "6.webp", "5.webp",
+        "4.webp", "3.webp", "2.webp", "1.webp"
+    ]
+
+    random_image = random.choice(image_list)
+
+    company_image_url = f"{IMAGE_URL}{random_image}"
 
     # 학력 및 고용 형태 설정
     required_education = random.choice(EDUCATION_LEVELS)
@@ -91,6 +105,7 @@ def generate_job_data(company, Info_no):
     additional_certifications = []
 
     # 자격증 설정
+    print(company)
     position_name = company["position"] 
     category = None
 
@@ -170,7 +185,7 @@ def generate_job_data(company, Info_no):
     "companyName": company["company_name"],
     "companyLocationRegion": region,
     "companyLocationSubregion": subregion,
-    "companyImageURL": "https://goorm-onet.duckdns.org:8888/uploads/company/images/default.jpg",
+    "companyImageURL": company_image_url,
     "companyRating": company_rating,
     "requiredEducation": required_education,
     "salaryMin": salary_min,
@@ -193,21 +208,50 @@ def generate_job_data(company, Info_no):
 
     return job_data
 
+def generate_job_extra_data(info_no):
+    data = {
+        'infoNo': info_no,
+        'applyCount': random.randint(1, 100),
+        'applyAverageScore': random.randint(50, 92),
+        'viewCount': random.randint(1200, 2200),
+    }
+    
+    return data
+
+def count_db():
+    collection = db[COLLECTION_CMI]
+    count = int(collection.count_documents({}))
+
+    return count
 # client.drop_database(MONGODB_DB)  # 데이터베이스 초기화
 # print("데이터베이스가 초기화되었습니다.")
 
-Info_no = 1
+# Info_no = 1 # 최초 데이터 삽입 시 1로 설정
+with open('Flask/data/datasets/company_more.json', 'r', encoding='utf-8') as f:
+        company_data = json.load(f)
 
-collection = db[COLLECTION_CMI] 
-for company in company_data:
-    doc = generate_job_data(company, Info_no)
-    if doc:  # doc이 None이 아닌 경우에만 삽입
-        collection.insert_one(doc)
-        # update_region_data(doc)
-        # print(doc)
-        Info_no += 1
+def insert_more_data(company_data):
+    Info_no = count_db()  
+    Info_no += 1  #데이터 추가 삽입시
 
-print("회사 데이터가 MongoDB에 삽입되었습니다.")
+    collection_job = db[COLLECTION_CMI] 
+    collection_job_extra = db[COLLECTION_EXTRA_CMI]
+    for company in company_data:
+        doc = generate_job_data(company, Info_no)
+        if doc:  # doc이 None이 아닌 경우에만 삽입
+
+            try:
+                collection_job.insert_one(doc)
+            
+                extra_data = generate_job_extra_data(Info_no)
+                collection_job_extra.insert_one(extra_data)
+                Info_no += 1
+            except Exception as e:
+                print(f"데이터 삽입 중 오류 발생: {e}")
+                return 500
+            finally: return 201
+
+    print("회사 데이터가 MongoDB에 삽입되었습니다.")
 
 # Loc_no = 1
 
