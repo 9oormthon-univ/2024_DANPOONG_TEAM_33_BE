@@ -9,6 +9,7 @@ import com.example.onetry.user.dto.res.UserInfoResDto;
 import com.example.onetry.user.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
@@ -109,5 +110,17 @@ public class UserController {
                         "유저 삭제가 성공적으로 완료되었습니다.",
                         null
         ));
+    }
+
+    @Operation(summary = "엑세스 토큰 재발급", description = "RefreshToken 을 통해 AccessToken 재발급"+
+            "<br> 엑세스 토큰이 만료되어 401 에러가 발생하면, RefreshToken을 헤더에 담아 요청"+
+            "<br>  AccessToken과 RefreshToken 을 재발급")
+    @PostMapping("/reissue")
+    public ResponseEntity<CommonResponseDto<SignInResDto>> reissue(HttpServletRequest request){
+        SignInResDto signInResDto = userService.reissueAccessToken(request);
+        return ResponseEntity.status(HttpStatus.OK).body(
+                new CommonResponseDto<>(
+                        "리프레시 토큰으로 엑세스 토큰 재발급 성공",
+                        signInResDto));
     }
 }
