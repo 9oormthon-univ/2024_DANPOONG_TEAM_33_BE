@@ -3,7 +3,7 @@ name: CD with Docker
 on:
   push:
     branches:
-      - dev  # dev 브랜치에 푸시될 때 실행
+      - dev  # main 브랜치에 푸시될 때 실행
 
 permissions:
   contents: read
@@ -31,19 +31,15 @@ jobs:
 
     # 5. Gradle 빌드 (테스트 제외)
     - name: Run chmod to make gradlew executable
-      run: cd onetry && chmod +x ./gradlew
+      run: cd onetry && chmod +x gradlew
     
     - name: Run Gradle build
-      uses: gradle/gradle-build-action@v2.6.0
-      with:
-        arguments: build -x test
-        working-directory: onetry
-
+      run: cd onetry && ./gradlew build -x test
 
     # 6. Docker 이미지 빌드
     - name: Build Docker image
       run: |
-        docker build -t "${{ secrets.DOCKER_HUB_USERNAME }}"/onetry-spring-server:0.0.1 ./onetry
+          docker build -t "${{ secrets.DOCKER_HUB_USERNAME }}/onetry-spring-server:0.0.1" ./onetry
 
     # 7. Docker Hub에 이미지 푸시
     - name: Push Docker image to Docker Hub
