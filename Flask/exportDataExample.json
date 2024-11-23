@@ -1,0 +1,103 @@
+[
+    {
+        "info_no": 1,
+        "position": "데이터 엔지니어",
+        "company": {
+            "name": "데이터브릿지",
+            "location": {
+                "region": "경기도",
+                "city": "남양주시",
+                "district": []
+            },
+            "rating": "A+"
+        },
+        "required_education": "대학교 졸업",
+        "salary": {
+            "min": 2500,
+            "max": 6100,
+            "currency": "KRW",
+            "unit": "만"
+        },
+        "employment_type": "기간제",
+        "working_schedule": {
+            "working_hours": "09:00 - 18:00",
+            "working_days": [
+                "월", "화", "수", "목", "금"
+            ]
+        },
+        "hiring_period": {
+            "start_date": "2024-11-14T16:51:39.579Z",
+            "end_date": "2024-12-29T16:51:39.579Z",
+            "recruitment_number": 3
+        },
+        "certifications": {
+            "essential": [
+                {"name": "빅데이터 분석가", "score": 24},
+                {"name": "네트워크 관리사", "score": 24},
+                {"name": "AWS DevOps Professional", "score": 22}
+            ],
+            "additional": [
+                {"name": "구글 클라우드 공인 데이터 엔지니어", "score": 8},
+                {"name": "TensorFlow 개발자", "score": 6},
+                {"name": "모바일 앱 개발자", "score": 6}
+            ]
+        },
+        "portfolio": {
+            "required": 1,
+            "score": 4
+        },
+        "experience": {
+            "level": "경력",
+            "required_years": 5
+        }
+    },
+    
+    {
+      "infoNo": 1,
+      "position": "데이터 엔지니어",
+      "companyName": "데이터브릿지",
+      "companyLocationRegion": "경기도",
+      "companyLocationSubregion": "남양주시",
+      "companyRating": "A+",
+      "requiredEducation": "대학교 졸업",
+      "salaryMin": 2500,
+      "salaryMax": 6100,
+      "salaryCurrency": "KRW",
+      "salaryUnit": "만",
+      "employmentType": "기간제",
+      "workingScheduleWorkingHours": "09:00 - 18:00",
+      "workingScheduleWorkingDays": ["월", "화", "수", "목", "금"],
+      "hiringPeriodStartDate": "2024-11-14T16:51:39.579Z",
+      "hiringPeriodEndDate": "2024-12-29T16:51:39.579Z",
+      "hiringPeriodRecruitmentNumber": 3,
+      "certificationsEssential": [
+        {"name": "빅데이터 분석가", "score": 24},
+        {"name": "네트워크 관리사", "score": 24},
+        {"name": "AWS DevOps Professional", "score": 22}
+      ],
+      "certificationsAdditional": [
+        {"name": "구글 클라우드 공인 데이터 엔지니어", "score": 8},
+        {"name": "TensorFlow 개발자", "score": 6},
+        {"name": "모바일 앱 개발자", "score": 6}
+      ],
+      "portfolioRequired": 1,
+      "portfolioScore": 4,
+      "experienceLevel": "경력",
+      "experienceRequiredYears": 5,
+      "hiringPeriodDday": -45,
+      "UserApplyAble": 1,
+      "userScore": 60,
+      "userRate": "B+",
+    }
+  ]
+  
+  {
+    "_id": {
+      "$oid": "673c25ef45b9fe4b002353ba"
+    },
+    "infoNo": 1,
+    "applyCount": 15,
+    "applyAverageScore": 57,
+    "applyAverageRate": "B-",
+    "viewCount": 1851,
+  }

@@ -1,0 +1,391 @@
+[
+  {
+    "category": "기획·전략",
+    "certifications": [
+      "경영지도사",
+      "CBAP(비즈니스 분석 전문가)",
+      "CFA(공인재무분석사)",
+      "PRINCE2 자격증",
+      "PMP(프로젝트 관리 전문가)",
+      "SHRM-CP(인사관리 전문가)",
+      "CMC(컨설팅 전문가)",
+      "식스시그마 블랙벨트",
+      "BSP(균형성과표 전문가)",
+      "KPI 전문가",
+      "CCMP(변화관리 전문가)",
+      "CFPS(기능 점수 측정 전문가)",
+      "FRM(금융리스크관리사)",
+      "CRMP(리스크관리 전문가)",
+      "PRM(리스크 관리 전문가)",
+      "CERA(기업 리스크 분석사)"
+    ]
+  },
+  {
+    "category": "마케팅·홍보·조사",
+    "certifications": [
+      "SNS 광고마케터 1급",
+      "GA4 자격증",
+      "GAIQ(Google Analytics Individual Qualification)",
+      "브랜드 관리사 1급",
+      "GTQ(그래픽 기술 자격증)",
+      "사회조사분석사 1급",
+      "사회조사분석사 2급",
+      "검색광고마케터",
+      "DMQ(디지털 마케팅 자격증)",
+      "메타 블루프린트",
+      "Google Ads 자격증",
+      "Meta 디지털 마케팅 인증",
+      "HubSpot 콘텐츠 마케팅 인증",
+      "Hootsuite 소셜 마케팅 인증",
+      "Microsoft Advertising 인증"
+    ]
+  },
+  [
+    {
+      "category": "회계·세무·재무",
+      "certifications": [
+        "경영지도사",
+        "세무사",
+        "CPA(공인회계사)",
+        "CFA(공인재무분석사)",
+        "FRM(재무위험관리사)",
+        "CFP(공인재무설계사)",
+        "ACCA(국제회계사)",
+        "전산회계 1급",
+        "전산회계 2급",
+        "전산세무 1급",
+        "전산세무 2급",
+        "IFRS 전문가",
+        "CMA(공인관리회계사)",
+        "내부회계관리사",
+        "AFPK(자산관리사)",
+        "CIA(공인 내부 감사사)",
+        "CTP(재무 관리 전문가)",
+        "CA(공인회계사)",
+        "ChFC(공인 재무 컨설턴트)",
+        "DipIFR(국제 회계 기준 전문가 과정)"
+      ]
+    },
+    {
+      "category": "인사·노무·HRD",
+      "certifications": [
+        "노무사",
+        "직업상담사 1급",
+        "직업상담사 2급",
+        "CHRP(인사관리 전문가)",
+        "SHRM-CP(인적자원관리 전문가)",
+        "SHRM-SCP(고급 인적자원관리 전문가)",
+        "PHR(인적자원관리 전문가)",
+        "SPHR(고급 인적자원관리 전문가)",
+        "CCP(보상 관리 전문가)",
+        "CPP(급여 관리 전문가)",
+        "CEAP(근로자 지원 전문가)",
+        "CTDP(인재 개발 전문가)",
+        "ODCP(조직 개발 전문가)"
+      ]
+    }
+  ],
+  {
+    "category": "총무·법무·사무",
+    "certifications": [
+      "변리사",
+      "변호사",
+      "행정사",
+      "법무사",
+      "전산회계 1급",
+      "전산회계 2급",
+      "전산세무 1급",
+      "전산세무 2급",
+      "Certified Paralegal",
+      "Certified Records Manager (CRM)"
+    ]
+  },
+  {
+    "category": "IT개발·데이터",
+    "certifications": [
+      "정보처리기사",
+      "정보보안기사",
+      "데이터분석 준전문가(ADsP)",
+      "데이터분석 전문가(ADP)",
+      "SQL 개발자(SQLD)",
+      "AWS 공인 솔루션스 아키텍트",
+      "구글 클라우드 공인 데이터 엔지니어",
+      "마이크로소프트 공인 데이터 분석가",
+      "리눅스 마스터 1급",
+      "리눅스 마스터 2급",
+      "CISSP(정보 시스템 보안 전문가)",
+      "PMP(Project Management Professional)",
+      "ITIL Foundation",
+      "AWS Certified DevOps Engineer - Professional",
+      "네트워크 관리사 1급",
+      "네트워크 관리사 2급",
+      "Google Professional Machine Learning Engineer",
+      "TensorFlow Developer Certificate",
+      "Microsoft Azure AI Engineer Associate",
+      "Certified Big Data Professional",
+      "Certified UX Designer",
+      "Certified AI Specialist"
+    ]
+  },
+  {
+    "category": "디자인",
+    "certifications": [
+      "웹디자인 기능사",
+      "시각디자인기사",
+      "컬러리스트 산업기사",
+      "컬러리스트 기사",
+      "멀티미디어 콘텐츠 제작 산업기사",
+      "멀티미디어 콘텐츠 제작 기사",
+      "Adobe Certified Professional (ACP) - Photoshop",
+      "Adobe Certified Professional (ACP) - Illustrator",
+      "Certified UX Designer",
+      "Certified Digital Designer"
+    ]
+  },
+  {
+    "category": "영업·판매·무역",
+    "certifications": [
+      "무역영어 자격증",
+      "국제무역사 1급",
+      "CPSM(공급 관리 전문가)",
+      "CGBP(글로벌 비즈니스 전문가)",
+      "APICS CSCP(공급망 전문가)",
+      "IML(국제 마케팅 전문가)",
+      "ECMAS(전자상거래 마케팅 분석가)",
+      "FIATA Diploma(국제 화물 운송 전문가)",
+      "CILT(물류 및 운송 전문가)",
+      "ISCEA CSCM(공급망 관리자)",
+      "SCOR-P(공급망 운영 전문가)",
+      "ITC Trade Advisor(국제 무역 조언가)",
+      "CES(수출 전문가)",
+      "CITP(국제 무역 전문가)",
+      "LSCM(물류 및 공급망 관리 전문가)"
+    ]
+  },
+  {
+    "category": "고객상담·TM",
+    "certifications": [
+      "심리상담사 2급",
+      "청소년 상담사 1급",
+      "청소년 상담사 2급",
+      "상담심리사 1급",
+      "MBTI 전문가 인증",
+      "Certified Family Therapist"
+    ]
+  },
+  {
+    "category": "구매·자재·물류",
+    "certifications": [
+      "물류관리사",
+      "CILT(물류 및 운송 전문가)",
+      "CSCP(공급망 전문가)",
+      "CLTD(물류, 운송 및 유통 전문가)",
+      "CPIM(생산 및 재고 관리 전문가)",
+      "FIATA Diploma(국제 화물 운송 전문가)",
+      "ISCEA CSCM(공급망 관리자)",
+      "SCOR-P(공급망 운영 전문가)",
+      "Lean Six Sigma(공정 개선 전문가)",
+      "Certified Export Specialist(수출 전문가)",
+      "Diploma in Procurement and Supply(구매 및 공급 전문가)"
+    ]
+  },
+  {
+    "category": "상품기획·MD",
+    "certifications": [
+      "패션스타일리스트 자격증",
+      "Certified Visual Merchandiser(비주얼 머천다이징 전문가)",
+      "Certified Retail Analyst(소매 분석 전문가)",
+      "상품기획사 자격증",
+      "패션MD 전문가 자격증",
+      "Certified Merchandise Planner(상품 기획 전문가)",
+      "Certified Buyer(구매 전문가)"
+    ]
+  },
+  {
+    "category": "운전·운송·배송",
+    "certifications": [
+      "화물운송자격증",
+      "대형운전면허",
+      "Passenger Transport Manager Certification(승객 운송 관리자 자격증)",
+      "Certified Fleet Manager(차량 관리 전문가)",
+      "교통안전관리사",
+      "버스운전자격증",
+      "지게차운전기능사",
+      "특수차량 운전 자격증",
+      "국제운송관리사",
+      "드론조종자격증"
+    ]
+  },
+  {
+    "category": "서비스",
+    "certifications": [
+      "요가 지도사 자격증",
+      "퍼스널 트레이너 자격증",
+      "스포츠 마사지 자격증",
+      "CS Leaders(고객만족 관리사)",
+      "Service Quality Management Certification(서비스 품질 관리 인증)",
+      "Certified Fitness Trainer(CFT, 퍼스널 트레이너 인증)",
+      "Certified Yoga Instructor(요가 강사 인증)",
+      "Certified Spa Therapist(스파 테라피스트 인증)",
+      "Hospitality Management Certification(호스피탈리티 관리 인증)",
+      "레크리에이션 지도사",
+      "서비스 코디네이터 자격증",
+      "호텔리어 자격증",
+      "레스토랑 매니지먼트 인증",
+      "서비스 리더십 자격증"
+    ]
+  },
+  {
+    "category": "생산",
+    "certifications": [
+      "기계기사",
+      "기계설비기사",
+      "품질경영기사",
+      "생산자동화산업기사",
+      "스마트팩토리운영관리사",
+      "Six Sigma Green Belt Certification(식스 시그마 그린벨트 인증)",
+      "Certified Quality Engineer(CQE, 품질 엔지니어 인증)",
+      "CNC 운영 자격증",
+      "Certified Production Technician(CPT, 생산 기술 인증)",
+      "제조관리기사",
+      "ISO 9001 품질관리사",
+      "Lean Manufacturing Certification(린 제조 인증)",
+      "Certified Manufacturing Engineer(CME, 제조 엔지니어 인증)",
+      "생산공정관리사",
+      "공장자동화 전문가 자격증"
+    ]
+  },
+  {
+    "category": "건설·건축",
+    "certifications": [
+      "건축사 자격증",
+      "건축설비기사",
+      "토목기사",
+      "실내건축기사",
+      "산업안전기사",
+      "건축구조기술사",
+      "토목구조기술사",
+      "건축시공기술사"
+    ]
+  },
+  {
+    "category": "의료",
+    "certifications": [
+      "간호사 면허증",
+      "약사 면허증",
+      "임상심리사 1급",
+      "임상심리사 2급",
+      "임상병리사 면허증",
+      "물리치료사 면허증",
+      "작업치료사 면허증",
+      "방사선사 면허증",
+      "응급구조사 1급",
+      "응급구조사 2급",
+      "공중보건사 자격증"
+    ]
+  },
+  {
+    "category": "연구·R&D",
+    "certifications": [
+      "화학공학기사",
+      "생물공학기사",
+      "바이오화학분석사",
+      "생명정보분석사",
+      "유전자 분석사",
+      "환경공학기사",
+      "기술사(생물공학)",
+      "기술사(화학공학)",
+      "에너지관리기사",
+      "반도체설계기사",
+      "재료공학기사",
+      "전산응용기계제도기사",
+      "식품기사",
+      "바이오산업기사",
+      "나노기술기사",
+      "고분자공학기사",
+      "신재생에너지발전설비기사",
+      "기술사(재료공학)"
+    ]
+  },
+  {
+    "category": "교육",
+    "certifications": [
+      "중등교원자격증",
+      "초등교원자격증",
+      "보육교사 2급",
+      "유치원교사 자격증",
+      "특수교사 자격증",
+      "한국어교원 2급",
+      "한국어교원 3급",
+      "평생교육사 2급",
+      "평생교육사 1급",
+      "TESOL(Teaching English to Speakers of Other Languages)",
+      "심리상담사 1급",
+      "아동심리상담사 1급",
+      "발달심리사",
+      "코칭리더십 전문가 자격증",
+      "교육행정사",
+      "국제공인 교육코치 자격증(ICF)",
+      "온라인교육 전문가 인증"
+    ]
+  },
+  {
+    "category": "미디어·문화·스포츠",
+    "certifications": [
+      "영상제작전문가 자격증",
+      "스포츠지도사 1급",
+      "스포츠지도사 2급",
+      "레크리에이션 지도사",
+      "문화예술교육사 1급",
+      "문화예술교육사 2급",
+      "음악실기교사 자격증",
+      "무대예술전문인 자격증",
+      "방송영상편집기능사",
+      "애니메이션 제작 자격증",
+      "디지털영상편집전문가",
+      "영상콘텐츠제작전문가",
+      "영상미디어전문가",
+      "무대조명전문인 자격증",
+      "무대음향전문인 자격증",
+      "영화기획제작전문가",
+      "공연예술기획사",
+      "무용지도사",
+      "스포츠트레이너 자격증",
+      "생활체육지도사",
+      "스포츠마사지사 자격증",
+      "레저스포츠지도사",
+      "스포츠재활전문가",
+      "예술경영사"
+    ]
+  },
+  {
+    "category": "금융·보험",
+    "certifications": [
+      "금융리스크관리사(FRM)",
+      "투자자산운용사",
+      "CFA(공인재무분석사)",
+      "CFP(공인재무설계사)",
+      "AFPK(자산관리사)",
+      "국제재무설계사",
+      "Certified Internal Auditor (CIA)",
+      "Certified Financial Planner (CFP)"
+    ]
+  },
+  {
+    "category": "공공·복지",
+    "certifications": [
+      "사회복지사 1급",
+      "사회복지사 2급",
+      "평생교육사 1급",
+      "평생교육사 2급",
+      "건강가정사",
+      "정신건강사회복지사 1급",
+      "정신건강사회복지사 2급",
+      "노인요양보호사",
+      "장애인재활상담사",
+      "청소년상담사 1급",
+      "청소년상담사 2급",
+      "청소년상담사 3급"
+    ]
+  }
+]

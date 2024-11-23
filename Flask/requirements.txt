@@ -3,4 +3,7 @@ flask_restx
 pymongo
 python-dotenv
 pymysql
-jwt
+PyJWT
+gunicorn
+flask-cors
+pandas
