@@ -34,7 +34,7 @@ jobs:
       uses: gradle/gradle-build-action@v2.6.0
       with:
         arguments: build -x test
-        working-directory: onetry
+        build-root-directory: onetry
 
     # 5. Docker 이미지 빌드
     - name: Build Docker image
