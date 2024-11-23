@@ -34,7 +34,7 @@ jobs:
       run: cd onetry && chmod +x gradlew
     
     - name: Run Gradle build
-      run: cd onetry && gradlew build -x test
+      run: cd onetry && ./gradlew build -x test
 
     # 6. Docker 이미지 빌드
     - name: Build Docker image
