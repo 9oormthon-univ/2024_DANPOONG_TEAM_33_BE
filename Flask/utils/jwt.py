@@ -1,7 +1,13 @@
 import jwt
+import os
 from jwt.exceptions import InvalidTokenError, ExpiredSignatureError
 
-def decode_token(JWT_SECRET_KEY, token):
+from dotenv import load_dotenv
+load_dotenv()
+
+JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY')
+
+def decode_token(auth_header):
     """
     JWT 토큰을 서명 검증을 통해 디코딩하여 userId를 반환합니다.
     
@@ -15,6 +21,8 @@ def decode_token(JWT_SECRET_KEY, token):
         401: 토큰이 만료되었거나 유효하지 않은 경우.
     """
     # print(f"Decoded token: {token}")  # 디버깅용 로그
+
+    token = auth_header.split(" ")[1]
 
     try:
         # JWT 토큰의 서명을 검증하고 페이로드 디코딩
